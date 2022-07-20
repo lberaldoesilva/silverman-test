@@ -1,6 +1,6 @@
 # silverman-test
 It performs Silverman test for models with k peaks at a certain significance level (in python).
-This is the algorithm described by Silverman (1981), "Using Kernel Density Estimates to investigate Multimodality".
+This is the algorithm described by Silverman (1981), "Using Kernel Density Estimates to investigate Multimodality" (the paper is short -- 3 pages -- and it explains the algorithm clearly).
 It tests the null hypothesis H0 that the probability density underlying the data has k modes (peaks), against the hypothesis that the density has more than k peaks.
 
 The probability returned by the test can be interpreted as the probability for the density to have more than k modes, where k is input.
