@@ -13,4 +13,4 @@ This test is known to be conservative, in the sense that it is not rigorous at r
 In other words, in some cases there might be more than k statistically significant peaks, but the test still does not reject models with k peaks.
 On the other hand, if the test rejects a model with k peaks, you can bet that there is in fact evidence for more peaks.
 
-A calibrated version of this test (more rigorous at rejecting models) was developed by Hall & York (2001), but that was only calibrated for k=1, i.e. to test the hypothesis of a single peak vs more peaks
+A calibrated version of this test (more rigorous at rejecting models) was developed by [Hall & York (2001)](https://www.jstor.org/stable/24306875?casa_token=A7zPWlS9ElsAAAAA%3AxCjQk4m4UCDykvYUp3k1ZxEGMX0WHwCIREj1leAjVz1Cx1enrVrErmpqAdR2Kvu9ziRtmW3X6Q92mUJylqhgcYcNeqHlngC5_uK_MC1L8R16M-sh#metadata_info_tab_contents), but that was only calibrated for k=1, i.e. to test the hypothesis of a single peak vs more peaks
