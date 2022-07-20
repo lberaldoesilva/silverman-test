@@ -3,6 +3,8 @@ It performs Silverman test for models with k peaks at a certain significance lev
 This is the algorithm described by Silverman (1981), "Using Kernel Density Estimates to investigate Multimodality" (the paper is short -- 3 pages -- and it explains the algorithm clearly).
 It tests the null hypothesis H0 that the probability density underlying the data has k modes (peaks), against the hypothesis that the density has more than k peaks.
 
+This test was used in [Beraldo e Silva et al (2021)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.502..260B/abstract), to demonstrate evidence for the presence of three peaks in the pericentric distance distribution of old stars in the Solar neighborhood.
+
 The probability returned by the test can be interpreted as the probability for the density to have more than k modes, where k is input.
 
 The main advantage of this method is that it does not assume any specific shape for the underlying distribution(s), or for the peaks, as is the case when one performs a Gaussian Mixture Model and computes the Bayesian Information Criterion.
